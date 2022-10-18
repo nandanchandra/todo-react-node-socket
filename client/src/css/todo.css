@@ -1,0 +1,68 @@
+.form {
+	width: 100%;
+	min-height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 30px;
+}
+.input {
+	padding: 10px 15px;
+	width: 80%;
+	margin-right: 15px;
+}
+.form__cta,
+.home__form > button {
+	width: 200px;
+	cursor: pointer;
+	padding: 10px;
+	height: 45px;
+	font-size: 16px;
+	background-color: #367e18;
+	color: #dff6ff;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
+.todo__container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	min-height: 300px;
+}
+.todo__item {
+	display: flex;
+	align-items: center;
+	width: 70%;
+	padding: 20px;
+	background-color: rgb(223, 221, 184);
+	margin: 10px 0;
+	justify-content: space-between;
+	color: #06283d;
+}
+
+.deleteBtn {
+	padding: 5px 10px;
+	background-color: rgb(202, 22, 22);
+	border: none;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+}
+.deleteBtn:hover {
+	color: rgb(202, 22, 22);
+	background-color: #fff;
+}
+.commentsBtn {
+	padding: 5px 10px;
+	margin-right: 10px;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	background-color: #fff;
+}
+.commentsBtn:hover {
+	background-color: #ddd;
+	border: 1px solid #000;
+}
