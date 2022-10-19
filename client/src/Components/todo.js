@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Task from "./task";
 import Nav from "./navbar";
+import { API } from "../backend";
 
 import "../css/todo.css";
 
@@ -32,7 +33,7 @@ function Todo({ socket }) {
 
 	useEffect(() => {
 		function fetchTodos() {
-			fetch("http://localhost:4000/api")
+			fetch(`${API}/api`)
 				.then((res) => res.json())
 				.then((data) => setTodoList(data))
 				.catch((err) => console.error(err));
