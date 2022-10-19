@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 4000;
 
 const socketIO = require("socket.io")(http, {
 	cors: {
-		origin: "http://localhost:3000",
+		origin: "https://ephemeral-unicorn-108f2a.netlify.app",
 	},
 });
 
