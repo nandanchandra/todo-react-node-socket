@@ -6,7 +6,7 @@ import Todo from "../Components/todo";
 import socketIO from "socket.io-client";
 
 export default function Routesx() {
-	const socket = socketIO.connect("http://localhost:4000");
+	const socket = socketIO.connect("https://node-todo-cnc.herokuapp.com");
 
 	return (
 		<Routes>
