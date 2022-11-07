@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 4000;
 
 const socketIO = require("socket.io")(http, {
 	cors: {
-		origin: "https://ephemeral-unicorn-108f2a.netlify.app",
+		origin: "https://todo-react-node-ws.herokuapp.com",
 	},
 });
 
